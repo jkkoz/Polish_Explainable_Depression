@@ -7,4 +7,12 @@ Subjective evaluation with 11 valid participants was performed. Psychology exper
 
 ## Repository Description
 
-This repository contains all the working files for this project
+This repository contains all the working files for this research project.
+
+**Data Collection** provides code for how data was scraped and cleaned along with the full dataset.     
+**Sentence Transformers** shows how data was preprocessed and used for training with Sentence Transformenrs.     
+**Feature Vector Construction** highlights how diacritis were restored, linguistical features collected, and how sentiment, emoji and aboslutist words were extracted as well.     
+**Models with Feature Vector** utilize that feature vector to compare Linear SVM, Logistic Regression, RBF SVM and AutoGluon's ensemble models when trained on this feature vector (or a subset of features). Inspection of feature importance is also present in the code.     
+**Explanations** provide two different ways of generating explanations: SHAP for the ensemble models and Counterfactuals for Logistic Regression.      
+
+#### This project was created as a Computer Science Bachelor Thesis at Vrije Universiteit Amsterdam (2026).
