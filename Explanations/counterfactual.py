@@ -1,3 +1,5 @@
+# code adapted from https://github.com/interpretml/DiCE/tree/main/docs/source/notebooks
+
 import dice_ml
 import numpy as np
 import pandas as pd
